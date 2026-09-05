@@ -1,0 +1,97 @@
+{
+    "frontend": {
+        "backgrounds": {
+            "menu_background.png": "frontend/images/backgrounds/maim_menu_backgound.png",
+            "other_background.png": "frontend/images/backgrounds/other_background.png"
+        },
+
+        "buttons": {
+            "achievements.png": "frontend/images/buttons/achievements.png",
+            "apply.png": "frontend/images/buttons/apply.png",
+            "clue.png": "frontend/images/buttons/clue.png",
+            "exit.png": "frontend/images/buttons/exit.png",
+            "leaderboard.png": "frontend/images/buttons/leaderboard.png",
+            "authors.png": "frontend/images/buttons/authors.png",
+            "play_button.png": "frontend/images/buttons/play_button.png",
+            "restart.png": "frontend/images/buttons/restart.png",
+            "flag.png": "frontend/images/buttons/flag.png",
+            "flag_on_field.png": "frontend/images/buttons/flag_on_field.png",
+            "settings.png": "frontend/images/buttons/settings.png",
+            "update_table.png": "frontend/images/buttons/update_table.png"
+        },
+
+        "radio_buttons": {
+            "selected_dot.png": "frontend/images/dots/selected_dot.png",
+            "not_selected_dot.png": "frontend/images/dots/not_selected_dot.png"
+        },
+
+        "game_utils": {
+            "field.png": "frontend/images/game_utils/field.png",
+            "mine.png": "frontend/images/game_utils/mine.png"
+        },
+
+        "logo": {
+            "logo.ico": "frontend/images/logo/logo.ico"
+        },
+
+        "ui_files": {
+            "menu.ui": "frontend/ui_files/menu.ui",
+            "achievements.ui": "frontend/ui_files/achievements.ui",
+            "game.ui": "frontend/ui_files/game.ui",
+            "leaderboard.ui": "frontend/ui_files/leaderboard.ui",
+            "authors.ui": "frontend/ui_files/authors.ui",
+            "settings.ui": "frontend/ui_files/settings.ui"
+        },
+
+        "other": {
+            "window_size": "500;800"
+        }
+    },
+
+    "backend": {
+        "data": {
+            "achievements.csv": "backend/data/achievements.csv",
+            "authors.txt": "backend/data/authors.txt",
+            "storage.sqlite": "backend/data/storage.sqlite"
+        },
+        "achievements": {
+            "values"  : {
+                "count_wins_value": "2",
+                "count_marked_mines_value": "10"
+            },
+            "texts": {
+                "count_wins_text": "Count wins",
+                "count_marked_mines_text": "Count marked mines",
+                "complete_beginner_level_text": "Complete beginner level",
+                "complete_professional_level_text": "Complete professional level"
+
+            }
+        },
+        "game_parameters": {
+            "field_sizes": {
+                "beginner_field_size": "5;4",
+                "professional_field_size": "10;16"
+            },
+            "cell_parameters": {
+                "beginner_cell_parameters": {
+                    "width": "100",
+                    "height": "100",
+                    "shift": "80",
+                    "x": "50",
+                    "y": "120"
+                },
+                "professional_cell_parameters": {
+                    "width": "50",
+                    "height": "50",
+                    "shift": "40",
+                    "x": "50",
+                    "y": "50"
+                }
+            },
+            "font_settings": {
+                "font_family": "Arial Black",
+                "font_size": "16"
+            }
+        }   
+    }
+}
